@@ -1,6 +1,6 @@
-# Shell & Tube Heat Exchanger Design Suite
+# Shell & Tube Heat Exchanger Design & performance analysis Suite
 
-A Python script for sizing a shell-and-tube heat exchanger from process and fluid property inputs. It calculates tube-side and shell-side heat transfer coefficients, pressure drops, required heat transfer area, number of tubes, shell diameter, and baffle spacing, then prints a complete design report.
+A Python script for sizing and analyzing the performance of a shell-and-tube heat exchanger from process and fluid property inputs. It calculates tube-side and shell-side heat transfer coefficients, Nusselt no., Prandtl no., pressure drops, required heat transfer area, number of tubes, shell diameter, and baffle spacing, then prints a complete design report.
 
 ## Features
 
@@ -60,6 +60,5 @@ Overall Heat Transfer Coefficient (U): 694.42 W/m²K
 - The Kern method is empirically valid primarily for turbulent shell-side flow (Re typically > ~2,000–10,000 depending on source). The script will print a warning if shell-side Reynolds number falls into the laminar or transitional range, since the correlation becomes less reliable there.
 - This is a simplified design tool intended for preliminary sizing and educational use, not a substitute for detailed mechanical design (e.g. TEMA standards, Bell-Delaware method) in production engineering work.
 
-## License
-
-Feel free to use, modify, and share this project.
+## Licences
+This project is for educational purposes.
