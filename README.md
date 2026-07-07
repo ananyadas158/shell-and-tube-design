@@ -61,4 +61,4 @@ Overall Heat Transfer Coefficient (U): 694.42 W/m²K
 - This is a simplified design tool intended for preliminary sizing and educational use, not a substitute for detailed mechanical design (e.g. TEMA standards, Bell-Delaware method) in production engineering work.
 
 ## Licences
-This project is for educational purposes.
+This project is for educational purposes. Any modification, redistribution, or commercial use is prohibited without express written permission from the author.
